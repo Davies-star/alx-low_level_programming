@@ -1,18 +1,22 @@
 #include <stdio.h>
 
 /**
- * main - Print alpha lower and upper
+ * main - Upper and lower
  * Return: Always 0
  */
+
 int main(void)
 {
-	char ch;
+	char ul;
 
-	for (ch = 'a'; ch = 'z'; ch++)
-		putchar(ch);
-	for (ch = 'A'; ch = 'Z'; ch++)
-		putchar(ch);
-
+	for (ul = 'a'; ul <= 'z'; ul++)
+	{
+		putchar(ul);
+	}
+	for (ul = 'A'; ul <= 'Z'; ul++)
+	{
+		putchar(ul);
+	}
 	putchar('\n');
 	return (0);
 }
