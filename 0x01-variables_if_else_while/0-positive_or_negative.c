@@ -2,9 +2,9 @@
 #include <time.h>
 #include <stdlib.h>
 /**
-*main - main block
-*description: get a random number and print number
-*return 0
+*main - Prints if the number is greter less or exactly one
+*
+*Return: Always (Success)
 */
 int main(void)
 {
