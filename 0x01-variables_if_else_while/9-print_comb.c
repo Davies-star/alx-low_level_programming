@@ -1,9 +1,9 @@
 #include <stdio.h>
 
 /**
- * main - Fast
- * Return: Always 0
- */
+* main - Fast
+* Return: Always 0
+*/
 int main(void)
 {
 	int m;
@@ -11,7 +11,7 @@ int main(void)
 	for (m = 48; m < 58; m++)
 	{
 		putchar(m);
-		if (m = 57)
+		if (m <= 57)
 		{
 			putchar(',');
 			putchar(' ');
